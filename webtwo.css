@@ -6,18 +6,19 @@
 }
 html, body{
     width: 100%;
-    height: auto;
+    height: 3000px;
     margin: 0 auto;
     
 }
 header{
+    max-width: 1900px;
     height: 75px;
     background-color: black;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
+    margin: 0 auto;
 }
 nav{
     display: flex;
@@ -57,6 +58,7 @@ nav{
     border-radius: 10px;
 }
 #mainSvg{
+    max-width: 2000px;
     background-color: white;
     color: white;
     width: 25px;
@@ -71,36 +73,185 @@ h4{
     font-size: 30px;
 }
 section{
+    max-width: 2000px;
     height: 2000px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
 }
 #container{
+    max-width: 2000px;
     height: 2000px;
     margin: 0 auto;
-
+    
 }
 #topImg{
-    width: 100%;
+    max-width: 2000px;
     height: 950px;
 }
 #contentOne{
-    width: 100%;
+    max-width: 2000px;
     height: 950px;
     
 }
 #theBand{
-    width: 100%;
+    max-width: 2000px;
     height: 800px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    margin-top: 80px;
+}
+#theBand h3{
+    width: 1000px;
+    line-height: 40px;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#theBand p{
+    line-height: 40px;
+    color: grey;
+    font-weight: 400;
+}
+#theBand h2{
+    font-size: 30px;
+    line-height: 30px;
+    
 }
 #nameBox{
-    width: 100%;
-    height: 500px;
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 .bandMem{
     width: 200px;
     height: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.memPic{
+    width: 175px;
+    height: 200px;
+    border-radius: 20px;
+}
+#tourDates{
+    width: 100%;
+    height: 1120px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#tourHead{
+    width: 1000px;
+    height: 300px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+#tourHead h3{
+    font-size: 55px;
+    font-weight: lighter;
+    letter-spacing: 10px;
+}
+#tourHead p{
+    font-size: 25px;
+    font-style: italic;
+    color: grey;
+}
+#tourBody{
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+
+}
+#tourFace{
+    width: 1000px;
+    height: 180px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+.calender{
+    width: 1000px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+.calender p{
+    height: auto;
+    margin-left: 20px;
+    font-size: 23px;
+    color: grey;
+
+}
+.soldOut{
+    width: 150px;
+    font-size: 23px;
+    height: 30px;
+    background-color: red;
+    color: black;
+    text-align: center;
+}
+.soldOut p{
+    color: white;
+}
+
+#tourChest{
+    width: 1000px;
+    height: 500px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.tourAbs{
+    width: 280px;
+    height: 480px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.tourImg{
+    width: 280px;
+    height: 200px;
+
+}
+
+.tickets{
+    width: 280px;
+    height: 80px;
+}
+.ticketsBtn{
+    background-color: black;
+    color: white;
+    width: 140px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
